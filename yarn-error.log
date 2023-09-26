@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\shawon\.npm-global\node_modules\yarn\bin\yarn.js add formik
+
+PATH: 
+  C:\Program Files\Zulu\zulu-17\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\php\php7.4.33;C:\composer;C:\Program Files\platform-tools;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Program Files\Git\cmd;C:\android\cmdline-tools\tools\bin;C:\android\cmdline-tools\tools;C:\android\sdk\platform-tools;C:\src\flutter\bin;D:\Apps Install\Microsoft VS Code\bin;C:\Users\shawon\AppData\Local\Microsoft\WindowsApps;C:\Users\shawon\.dotnet\tools;C:\Users\shawon\AppData\Roaming\npm;C:\Users\shawon\.npm-global;C:\Users\shawon\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\jre-1.8\bin;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Python311\Scripts;C:\Program Files\Java\jdk-20\bin;C:\android\platforms;C:\android\platform-tools;C:\android\sdk;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\React\de\bnque\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "bnque",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "formik": "^2.4.5",
+      "next": "latest",
+      "react": "latest",
+      "react-dom": "latest"
+    },
+    "devDependencies": {
+      "autoprefixer": "latest",
+      "postcss": "latest",
+      "tailwindcss": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
